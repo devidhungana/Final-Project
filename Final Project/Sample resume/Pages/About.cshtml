@@ -1,0 +1,39 @@
+﻿@page
+@model AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div.a {
+            text-align: left;
+            text-indent: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="a">
+        <p>
+            <font color="red" size="3" face="georgia">
+                This is a personal blog created by Devi Dhungana. This blog contain the personal resume
+                of Devi Dhungana. If you wish to view the resume visit the <u>Resume</u> link above.
+            </font>
+        </p>
+    </div>
+
+    <address>
+        <p>If you have any question write us down to the link given below.</p>
+        <strong>Questions?:</strong> <a href="mailto:dcdhungana@captechu.edu">Questions@askme.com</a><br />
+        
+
+    </address>
+
+</body>
+</html>
+
